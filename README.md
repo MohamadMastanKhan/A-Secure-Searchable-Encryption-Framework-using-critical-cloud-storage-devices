@@ -3,6 +3,8 @@
 
 This project is a Java-based web application that implements a secure searchable encryption framework for privacy-critical cloud storage services. It allows users to store encrypted data on the cloud while enabling efficient keyword-based search without compromising security.
 
+This project was successfully completed as part of an academic requirement and certified by Manac Software Private Limited.
+
 📂 Project Structure
 
 Secure-Searchable-Encryption/
