@@ -5,92 +5,92 @@ This project is a Java-based web application that implements a secure searchable
 
 This project was successfully completed as part of an academic requirement and certified by Manac Software Private Limited.
 
-📂 Project Structure
+**📂 Project Structure**
 
-Secure-Searchable-Encryption/
-│—— src/
-│   ├—— main/
-│   │   ├—— java/com/
-│   │   │   ├—— encryption/       # Encryption & decryption logic
-│   │   │   ├—— database/         # Database connection handling
-│   │   │   ├—— servlets/         # Servlet controllers
-│   │   ├—— resources/
-│   │   │   ├—— config.properties # Configuration settings
-│   │   ├—— webapp/
-│   │   │   ├—— Cloud.jsp         # Cloud storage interface
-│   │   │   ├—— DataOwner.jsp     # Data owner dashboard
-│   │   │   ├—— DataUser.jsp      # Data user search panel
-│—— build.xml                     # Apache Ant build script
-│—— README.md                      # Project documentation
+    Secure-Searchable-Encryption/
+    │—— src/
+    │   ├—— main/
+    │   │   ├—— java/com/
+    │   │   │   ├—— encryption/       # Encryption & decryption logic
+    │   │   │   ├—— database/         # Database connection handling
+    │   │   │   ├—— servlets/         # Servlet controllers
+    │   │   ├—— resources/
+    │   │   │   ├—— config.properties # Configuration settings
+    │   │   ├—— webapp/
+    │   │   │   ├—— Cloud.jsp         # Cloud storage interface
+    │   │   │   ├—— DataOwner.jsp     # Data owner dashboard
+    │   │   │   ├—— DataUser.jsp      # Data user search panel
+    │—— build.xml                     # Apache Ant build script
+    │—— README.md                      # Project documentation
 
-🚀 Features
+**🚀 Features**
 
-🔒 Secure Data Storage using Searchable Encryption
+    🔒 Secure Data Storage using Searchable Encryption
 
-🔍 Keyword-Based Search on encrypted data
+    🔍 Keyword-Based Search on encrypted data
 
-🛠️ Multi-User Access Control for Data Owners and Data Users
+    🛠️ Multi-User Access Control for Data Owners and Data Users
 
-💾 MySQL Database Integration
+    💾 MySQL Database Integration
 
-🌐 JSP & Servlets-Based Web Interface
+    🌐 JSP & Servlets-Based Web Interface
 
-☁️ Cloud Storage Simulation
+    ☁️ Cloud Storage Simulation
 
-⚙️ Technologies Used
+**⚙️ Technologies Used**
 
-Java (JDK 8+)
+    Java (JDK 8+)
 
-JSP & Servlets
+    JSP & Servlets
 
-Apache Tomcat (Server)
+    Apache Tomcat (Server)
 
-MySQL (Database)
+    MySQL (Database)
 
-Cryptography Algorithms for Secure Encryption
+    Cryptography Algorithms for Secure Encryption
 
-Apache Ant (Build & Deployment)
+    Apache Ant (Build & Deployment)
 
-🛠️ Setup Instructions
+**🛠️ Setup Instructions**
 
-Clone the Repository
+  Clone the Repository
 
-git clone https://github.com/MohamadMastanKhan/Secure-Searchable-Encryption.git
-cd Secure-Searchable-Encryption
+    git clone https://github.com/MohamadMastanKhan/Secure-Searchable-Encryption.git
+    cd Secure-Searchable-Encryption
 
-Configure Database
+**Configure Database**
 
-Create a MySQL database named secure_storage
+    Create a MySQL database named secure_storage
 
-Update config.properties with MySQL credentials
+    Update config.properties with MySQL credentials
 
-Build & Deploy
+**Build & Deploy**
 
-ant compile
-ant deploy
+    ant compile
+    ant deploy
 
-Run the Application
+**Run the Application**
 
-Deploy the WAR file to Tomcat’s webapps directory
+    Deploy the WAR file to Tomcat’s webapps directory
 
-Start Tomcat and access the app at:
+    Start Tomcat and access the app at:
 
-http://localhost:8080/SecureStorage/
+    http://localhost:8080/SecureStorage/
 
-🐟 API Endpoints (Servlets)
+**🐟 API Endpoints (Servlets)**
 
-UploadServlet (/upload) - Encrypts and uploads files to cloud storage.
+      UploadServlet (/upload) - Encrypts and uploads files to cloud storage.
 
-SearchServlet (/search) - Performs keyword-based search on encrypted data.
+      SearchServlet (/search) - Performs keyword-based search on encrypted data.
 
-DownloadServlet (/download) - Retrieves and decrypts stored files.
+      DownloadServlet (/download) - Retrieves and decrypts stored files.
 
-🤝 Contributing
+**🤝 Contributing**
 
-Feel free to raise issues and contribute to this project.
+    Feel free to raise issues and contribute to this project.
 
-🐝 License
+**🐝 License**
 
-MIT License © 2025 Mohamad Mastankhan
+    MIT License © 2025 Mohamad Mastankhan
 
 
